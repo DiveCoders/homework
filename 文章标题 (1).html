@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>文章标题</title>
+<link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body><div class="container"><h1 id="后台开发人员作业"><em>后台开发人员作业</em></h1>
+
+<hr>
+
+<blockquote>
+  <h4 id="编辑时间"><strong>编辑时间：</strong></h4>
+  
+  <ul>
+  <li><strong>2017年3月28日10:52:02</strong></li>
+  </ul>
+  
+  <h4 id="作业名称"><strong>作业名称：</strong></h4>
+  
+  <ul>
+  <li><strong>模仿qsort() 实现一个通用排序函数:msort()。</strong></li>
+  </ul>
+  
+  <h4 id="作业截止期限"><strong>作业截止期限：</strong></h4>
+  
+  <ul>
+  <li><strong>本周六下午 17:00 前</strong></li>
+  </ul>
+  
+  <h4 id="提醒"><strong>提醒：</strong></h4>
+  
+  <ul>
+  <li><strong>模仿qsort() 实现一个通用排序函数:msort()。</strong></li>
+  </ul>
+  
+  <p>&nbsp;</p>
+  
+  <blockquote>
+    <p><strong>如果采用其他语言，比如python ,则不必采用以下文件结构，但是应该‘照猫画虎’，领会以下的各种要求,合适的采用其他语言分别实现其功能：模块分离、运行、测试 </strong></p>
+  </blockquote>
+  
+  <h4 id="必须用到以下几个文件"><strong>必须用到以下几个文件:</strong></h4>
+  
+  <ul>
+  <li><strong>msort.c  实现排序函数</strong></li>
+  <li><strong>generate_data.h   声明随机数相关函数</strong></li>
+  <li><strong>main.c     这个文件里不实现任何排序相关的内容</strong></li>
+  <li><strong>generate_data.c   根据传入参数，产生指定数量的随机数</strong></li>
+  <li><strong>msort.h  排序相关函数的声明 (可能还需要结构体的声明)</strong></li>
+  <li><strong>test_generate_data.c  测试 generate_data.c 的所有函数</strong></li>
+  <li><strong>test_msort.c  测试 msort.c 的所有函数</strong></li>
+  <li><strong>Makefile   一键编译这个作业</strong></li>
+  </ul>
+  
+  <h4 id="函数依赖"><strong>函数依赖：</strong></h4>
+  
+  <ul>
+  <li><strong>排序算法的时间复杂度应该为 nlog(n)</strong></li>
+  <li><strong>排序时，不可以调用任何第三方排序函数</strong></li>
+  </ul>
+  
+  <h4 id="文件保存在同一级目录下"><strong>文件保存在同一级目录下:</strong></h4>
+  
+  <ul>
+  <li><strong>msort目录</strong> <br>
+  &nbsp;</li>
+  </ul>
+  
+  <hr>
+  
+  <h3 id="验收要求"><strong>验收要求：</strong></h3>
+  
+  <h4 id="生成验收"><strong>生成验收:</strong></h4>
+  
+  <ul>
+  <li><p><strong>在作业目录(msort)下：</strong></p>
+  
+  <ul><li><strong>执行 make 命令，则生成 msort</strong></li>
+  <li><strong>执行 make test, 则生成 test_msort</strong></li>
+  <li><strong>执行 make clean, 则清空所有由 make 相关指令生成的文件</strong> <br>
+  &nbsp;</li></ul></li>
+  <li><p><strong>执行验收：</strong></p>
+  
+  <ul><li><strong>生成验收通过后，在作业目录(msort)下 执行 ./msort MAX_VALUE TOTAL_NUMS输出数据</strong></li>
+  <li><strong>打印生成的随机数总数，随机数的最大值 TOTAL_NUMS, MAX_VALUE（独占一行</strong></li>
+  <li><strong>打印生成的随机数， 每行规定显示为 10 个，每个数字之间以‘逗号’分开</strong></li>
+  <li><strong>打印排序所耗费的时间 （独占一行）</strong></li>
+  <li><strong>打印排序后的数字，显示格式与2相同</strong> <br>
+  &nbsp;</li></ul></li>
+  <li><p><strong>测试验收：</strong></p>
+  
+  <ul><li><strong>执行 ./test_msort</strong></li>
+  <li><strong>依次次输出每个函数的‘声明’，然后是四个空格，接着 输出 OK 或者 FAILED</strong></li>
+  <li><strong>OK 需要红色字体</strong></li>
+  <li><strong>FAILED 需要绿色字体</strong></li></ul></li>
+  </ul>
+  
+  <hr>
+  
+  <h3 id="作业提交方式"><strong>作业提交方式：</strong></h3>
+  
+  <ul>
+  <li><strong>代码放在 github</strong></li>
+  <li><strong>截图与作业总结放在 blog</strong></li>
+  <li><strong>博文第一行放置作业在 github 的地址</strong></li>
+  <li><strong>通过邮箱发送 自己的作业</strong></li>
+  <li><strong>邮件标题: 姓名-完成时间</strong></li>
+  <li><strong>邮件正文：blog链接 </strong></li>
+  <li><strong>随着作业的开展，每完成或者实现一定的功能，则进行提交</strong></li>
+  <li><strong>提交时，注明必要的提交说明</strong></li>
+  <li><strong>完成作业后，应该有不少于5次提交</strong></li>
+  </ul>
+  
+  <hr>
+</blockquote></div></body>
+</html>
