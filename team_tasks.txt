@@ -19,6 +19,10 @@ https://segmentfault.com/a/1190000002918123
     python3+ 开发过程中，单元测试的必要性及入门
 
 
+高塬 40 min
+    python3+ 开发过程中，单元测试的必要性及入门
+
+
 王积旺  40 min
     C/C++ 开发过程中， googletest 测试框架的使用。
     环境搭建
